@@ -60,7 +60,7 @@ class MyTestCase(unittest.TestCase):
 		# send_keys
 		# press_keycode
 		self.driver.find_element_by_id('formula').send_keys('10')
-
+		# 通过content_desc查找
 		element = self.driver.find_element_by_accessibility_id(u'除').click()
 		self.driver.press_keycode(12)
 		self.driver.find_element_by_id('eq').click()
