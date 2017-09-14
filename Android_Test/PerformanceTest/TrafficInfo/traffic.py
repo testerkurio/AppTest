@@ -4,7 +4,6 @@
 import os
 import csv
 import time
-import string
 
 # 控制类
 class Controller(object):
